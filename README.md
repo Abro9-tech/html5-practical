@@ -5,7 +5,7 @@ It demonstrates the use of **semantic HTML5 elements**, multimedia integration, 
 
 ---
 
-## 📑 Pages
+##  Pages
 
 - **index.html**  
   The home page introducing Tourism in Kenya.  
@@ -38,14 +38,9 @@ It demonstrates the use of **semantic HTML5 elements**, multimedia integration, 
 
 ## 📂 Assets
 
-The project includes sample media files organized as follows:
+The project includes sample media  organized files.
 
-
----
-
-## 📌 Sources
-
-- Free images: [Unsplash](https://unsplash.com) / [Pexels](https://pexels.com)  
+- Free images: [Unsplash](https://unsplash.com) 
 - Audio: [Pixabay Sounds](https://pixabay.com/sound-effects/)  
 - Video: [Sample-Videos.com](https://sample-videos.com)  
 
