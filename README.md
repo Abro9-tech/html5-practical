@@ -7,7 +7,7 @@ This site demonstrates HTML5 semantics, multimedia, captions, tables, and access
 - **media.html** — `<picture>` responsive image, audio, video with WebVTT captions.  
 - **extras.html** — Tables (caption/thead/tbody/tfoot), `<details>`, `<dialog>`, `<progress>`, `<meter>`.  
 
-**Live site:** https://<your-username>.github.io/html5-practical/
+**Live site:** [https://<your-username>.github.io/html5-practical/](https://abro9-tech.github.io/html5-practical/)
 
 
 
