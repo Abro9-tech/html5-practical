@@ -31,42 +31,38 @@
     <!-- Responsive Image -->
     <section>
       <h2>Responsive Image</h2>
-      <picture>
-        <source srcset="assets/images/hero-large.jpg" media="(min-width: 1024px)">
-        <source srcset="assets/images/hero-medium.jpg" media="(min-width: 600px)">
-        <img src="assets/images/hero-small.jpg" alt="Kenya wildlife safari">
-      </picture>
-    </section>
-
-    <!-- Figure with Caption -->
-    <section>
-      <h2>Figure with Caption</h2>
       <figure>
-        <img src="assets/images/hero-small.jpg" alt="Elephants in Amboseli National Park">
-        <figcaption>Elephants grazing with Mount Kilimanjaro in the background – Amboseli National Park.</figcaption>
+        <picture>
+          <source srcset="assets/images/lion-large.jpg" media="(min-width: 1000px)">
+          <source srcset="assets/images/lion-medium.jpg" media="(min-width: 600px)">
+          <img src="assets/images/lion-small.jpg" alt="Scenic view of Maasai Mara National Reserve">
+        </picture>
+        <figcaption>
+          Responsive image of a lion in Maasai Mara <code>&lt;&gt;</code>.
+        </figcaption>
       </figure>
     </section>
 
-    <!-- Audio Example -->
+    <!-- Audio -->
     <section>
       <h2>Traditional Music</h2>
       <audio controls>
-        <source src="assets/audio/sample.mp3" type="audio/mpeg">
+        <source src="assets/audio/music.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-      <p>Listen to a sample of Kenyan traditional music.</p>
+      <p>Listen to a short sample of a music that was played for our tourist.</p>
     </section>
 
-    <!-- Video Example -->
+    <!-- Video with Captions -->
     <section>
       <h2>Tourism Video</h2>
-      <video controls width="480">
-        <source src="assets/video/sample.mp4" type="video/mp4">
-        <source src="assets/video/sample.webm" type="video/webm">
-        <track src="assets/captions/sample.vtt" kind="subtitles" srclang="en" label="English">
-        Your browser does not support the video tag.
+      <video controls width="640" poster="assets/images/lion-medium.jpg">
+        <source src="assets/video/Tourism.mp4" type="video/mp4">
+        <source src="assets/video/Tourism.mp4" type="video/webm">
+        <track src="assets/captions/sample.vtt" kind="captions" srclang="en" label="English" default>
+        Sorry, your browser doesn't support embedded videos.
       </video>
-      <p>Experience the beauty of Kenya through this short tourism video.</p>
+      <p>Experience the beauty of Kenya .</p>
     </section>
 
   </main>
