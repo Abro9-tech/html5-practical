@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media - Tourism Kenya</title>
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header>
+    <h1>Tourism Media Gallery</h1>
+    
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- Responsive Image -->
+    <section>
+      <h2>Responsive Image</h2>
+      <picture>
+        <source srcset="assets/images/hero-large.jpg" media="(min-width: 1024px)">
+        <source srcset="assets/images/hero-medium.jpg" media="(min-width: 600px)">
+        <img src="assets/images/hero-small.jpg" alt="Kenya wildlife safari">
+      </picture>
+    </section>
+
+    <!-- Figure with Caption -->
+    <section>
+      <h2>Figure with Caption</h2>
+      <figure>
+        <img src="assets/images/hero-small.jpg" alt="Elephants in Amboseli National Park">
+        <figcaption>Elephants grazing with Mount Kilimanjaro in the background – Amboseli National Park.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Audio Example -->
+    <section>
+      <h2>Traditional Music</h2>
+      <audio controls>
+        <source src="assets/audio/sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>Listen to a sample of Kenyan traditional music.</p>
+    </section>
+
+    <!-- Video Example -->
+    <section>
+      <h2>Tourism Video</h2>
+      <video controls width="480">
+        <source src="assets/video/sample.mp4" type="video/mp4">
+        <source src="assets/video/sample.webm" type="video/webm">
+        <track src="assets/captions/sample.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+      <p>Experience the beauty of Kenya through this short tourism video.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tourism Kenya</p>
+  </footer>
+
+</body>
+</html>
