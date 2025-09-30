@@ -1,13 +1,25 @@
 # Tourism Kenya - HTML5 Practical
+# HTML5 + CSS3 Practical
 
-This site demonstrates HTML5 semantics, multimedia, captions, tables, and accessible micro-elements with a tourism theme.
+## Live Site
+https://abro9-tech.github.io/html5-practical/
 
-- **index.html** — Semantic structure, skip link, headings, quotes, abbr, code/kbd/samp.  
-- **about.html** — Sections, unordered/ordered/definition lists.  
-- **media.html** — `<picture>` responsive image, audio, video with WebVTT captions.  
-- **extras.html** — Tables (caption/thead/tbody/tfoot), `<details>`, `<dialog>`, `<progress>`, `<meter>`.  
+## Project Structure
+- 4 HTML pages (index, about, media, extras)
+- CSS styling in /assets/css/styles.css
+- Docker configuration included
 
-**Live site:** [https://<your-username>.github.io/html5-practical/](https://abro9-tech.github.io/html5-practical/)
+## Features
+- Responsive design (mobile, tablet, desktop)
+- CSS Grid and Flexbox layouts
+- Accessible navigation and focus states
+- Dark mode support
+- Docker containerization
+
+## Docker Commands
+```bash
+docker build -t html5-css3-site .
+docker run -p 8080:80 html5-css3-site
 
 
 
